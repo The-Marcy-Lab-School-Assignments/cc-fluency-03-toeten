@@ -54,8 +54,8 @@ getAllTags(users)
 //q3
 
 const sumAllFollowers = (users) => {
-  return users.reduce((total, user) => {
-    return total + user.followers
+  return users.reduce((total, {followers}) => {
+    return total + followers
   }, 0)
 }
 

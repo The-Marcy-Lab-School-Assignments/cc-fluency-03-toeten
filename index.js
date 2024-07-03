@@ -40,7 +40,7 @@ const logAllNames = (users) => {
 }
 
 
-//logAllNames(users)
+logAllNames(users)
 
 
 //q2
@@ -49,7 +49,7 @@ const getAllTags = (users) => {
   users.forEach(user => console.log(`Hi my name is ${user.name}, and my tag is ${user.username}!`))
 }
 
-//getAllTags(users)
+getAllTags(users)
 
 //q3
 
@@ -61,7 +61,7 @@ const sumAllFollowers = (users) => {
 
 
 
-//console.log(sumAllFollowers(users))
+console.log(sumAllFollowers(users))
 
 
 //q4
@@ -71,7 +71,7 @@ const searchUsername = (users, username) => {
 }
 
 
-//console.log(searchUsername(users,"@passaic_papi" ))
+console.log(searchUsername(users,"@passaic_papi" ))
 
 
 
@@ -84,7 +84,7 @@ const longWinded = () => {
   })
 }
 
-//console.log(longWinded(users))
+console.log(longWinded(users))
 
 //q6
 
@@ -95,4 +95,4 @@ const follower = () => {
 }
 
 
-//console.log(follower(users))
+console.log(follower(users))

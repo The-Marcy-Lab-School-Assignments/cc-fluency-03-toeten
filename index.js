@@ -56,8 +56,8 @@ const getAllTags = (users) => {
 const sumAllFollowers = (users) => {
   return users.reduce((total, user) => {
     return total + user.followers
-  }, 0);
-};
+  }, 0)
+}
 
 
 
